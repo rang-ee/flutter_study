@@ -24,6 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: CustomVideoPlayer(
         video: video!,
         onNewVideoPressed: onNewVideoPressed,
+        //onNewVideoPressed: onNewVideoPressed,
       ),
     );
   }
